@@ -22,6 +22,52 @@ class Projects extends Component {
 	toggleCategories() {
 		if (this.state.activeTab === 0) {
 			return (
+				<div className="project-grid">
+					<Card shadow={5} style={{ minwidth: '450', margin: 'auto' }}>
+						<CardTitle
+							style={{
+								color: '#fff',
+								height: '176px',
+								background:
+									'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+							}}
+						>
+							React Project #1
+						</CardTitle>
+						<CardText>Add description of project</CardText>
+						<CardActions border>
+							<Button colored>Github</Button>
+							<Button colored>Live Demo</Button>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</CardActions>
+					</Card>
+					<Card shadow={5} style={{ minwidth: '450', margin: 'auto' }}>
+						<CardTitle
+							style={{
+								color: '#fff',
+								height: '176px',
+								background:
+									'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+							}}
+						>
+							React Project #1
+						</CardTitle>
+						<CardText>Add description of project</CardText>
+						<CardActions border>
+							<Button colored>Github</Button>
+							<Button colored>Live Demo</Button>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</CardActions>
+					</Card>
+				</div>
+			);
+		} else if (this.state.activeTab === 1) {
+			return (
+				// Project 2
 				<Card shadow={5} style={{ minwidth: '450', margin: 'auto' }}>
 					<CardTitle
 						style={{
@@ -31,7 +77,7 @@ class Projects extends Component {
 								'url(https://create-react-app.dev/img/logo-og.png) center / cover',
 						}}
 					>
-						React Project #1
+						React Project #2
 					</CardTitle>
 					<CardText>Add description of project</CardText>
 					<CardActions border>
@@ -43,23 +89,53 @@ class Projects extends Component {
 					</CardActions>
 				</Card>
 			);
-		} else if (this.state.activeTab === 1) {
-			return (
-				<div>
-					<h1>This is React two</h1>
-				</div>
-			);
 		} else if (this.state.activeTab === 2) {
 			return (
-				<div>
-					<h1>This is React three</h1>
-				</div>
+				// Project 3
+				<Card shadow={5} style={{ minwidth: '450', margin: 'auto' }}>
+					<CardTitle
+						style={{
+							color: '#fff',
+							height: '176px',
+							background:
+								'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+						}}
+					>
+						React Project #3
+					</CardTitle>
+					<CardText>Add description of project</CardText>
+					<CardActions border>
+						<Button colored>Github</Button>
+						<Button colored>Live Demo</Button>
+						<CardMenu style={{ color: '#fff' }}>
+							<IconButton name="share" />
+						</CardMenu>
+					</CardActions>
+				</Card>
 			);
 		} else if (this.state.activeTab === 3) {
 			return (
-				<div>
-					<h1>This is React four</h1>
-				</div>
+				// Project 3
+				<Card shadow={5} style={{ minwidth: '450', margin: 'auto' }}>
+					<CardTitle
+						style={{
+							color: '#fff',
+							height: '176px',
+							background:
+								'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+						}}
+					>
+						React Project #4
+					</CardTitle>
+					<CardText>Add description of project</CardText>
+					<CardActions border>
+						<Button colored>Github</Button>
+						<Button colored>Live Demo</Button>
+						<CardMenu style={{ color: '#fff' }}>
+							<IconButton name="share" />
+						</CardMenu>
+					</CardActions>
+				</Card>
 			);
 		}
 	}
@@ -77,13 +153,11 @@ class Projects extends Component {
 					<Tab>React3</Tab>
 					<Tab>React4</Tab>
 				</Tabs>
-				<section className="project-grid">
-					<Grid className="projects-grid">
-						<Cell col={12}>
-							<div className="content">{this.toggleCategories()}</div>
-						</Cell>
-					</Grid>
-				</section>
+				<Grid>
+					<Cell col={12}>
+						<div className="content">{this.toggleCategories()}</div>
+					</Cell>
+				</Grid>
 			</div>
 		);
 	}
