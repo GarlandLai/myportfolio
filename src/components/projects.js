@@ -14,6 +14,24 @@ class Projects extends Component {
 					<h1>This is React</h1>
 				</div>
 			);
+		} else if (this.state.activeTab === 1) {
+			return (
+				<div>
+					<h1>This is React two</h1>
+				</div>
+			);
+		} else if (this.state.activeTab === 2) {
+			return (
+				<div>
+					<h1>This is React three</h1>
+				</div>
+			);
+		} else if (this.state.activeTab === 3) {
+			return (
+				<div>
+					<h1>This is React four</h1>
+				</div>
+			);
 		}
 	}
 
@@ -22,7 +40,7 @@ class Projects extends Component {
 			<div className="category-tabs">
 				<Tabs
 					activeTab={this.state.activeTab}
-					onChange={(tabId) => this.setState({ activeTav: tabId })}
+					onChange={(tabId) => this.setState({ activeTab: tabId })}
 					ripple
 				>
 					<Tab>React1</Tab>
