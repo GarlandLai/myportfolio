@@ -92,3 +92,9 @@
 	font-family: 'Oxygen', sans-serif;
 	font-weight: bold;
 }
+
+.contact-grid hr {
+	border-top: 5px dotted black;
+	width: 50%;
+	margin: auto;
+}
