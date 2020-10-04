@@ -3,6 +3,7 @@ import { Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
 import Skills from './skills';
+import Avatar from '../assets/avatar2.png';
 
 class Resume extends Component {
 	render() {
@@ -11,13 +12,7 @@ class Resume extends Component {
 				<Grid>
 					<Cell col={4}>
 						<div style={{ textAlign: 'center' }}>
-							<img
-								src={
-									'https://cdn2.vectorstock.com/i/1000x1000/20/76/man-avatar-profile-vector-21372076.jpg'
-								}
-								alt="avatar"
-								style={{ height: '200px' }}
-							/>
+							<img src={Avatar} alt="avatar" style={{ height: '200px' }} />
 						</div>
 						<h2 stye={{ paddingTop: '2em' }}>Garland Lai</h2>
 						<h4 style={{ color: 'grey' }}>Web Developer</h4>

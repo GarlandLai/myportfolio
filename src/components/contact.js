@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
+import Avatar from '../assets/avatar2.png';
 
 class Contact extends Component {
 	render() {
@@ -8,11 +9,7 @@ class Contact extends Component {
 				<Grid className="contact-grid">
 					<Cell col={6}>
 						<h2>Garland Lai</h2>
-						<img
-							src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-							alt="avatar"
-							style={{ height: '250px' }}
-						/>
+						<img src={Avatar} alt="avatar" style={{ height: '250px' }} />
 						<p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
 							Add some information here
 						</p>
