@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import Education from './education';
-import Experience from './experience';
+import Education from './resume/education';
+import Experience from './resume/experience';
 import Skills from './skills';
 import Avatar from '../assets/avatar2.png';
+import { CascadeEnergy } from './resume/jobInfo';
 
 class Resume extends Component {
 	render() {
@@ -22,7 +23,13 @@ class Resume extends Component {
 								width: '100%',
 							}}
 						/>
-						<p>Add some content</p>
+						<p>
+							Motivated individual with engaging interpersonal skills and
+							expertise in cultivating strong connections. Demonstrates strong
+							analytical and problem solving abilities. Experienced in
+							individual and collaborative work with cross-functional teams.
+							Eager and excited to learn and grow within the tech field!
+						</p>
 						<hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
 						<h5>Location</h5>
 						<p>San Francisco, CA</p>
@@ -63,11 +70,11 @@ class Resume extends Component {
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 						<h2>Experience</h2>
 						<Experience
-							startYear={2009}
-							endYear={2013}
+							startYear="October 2019"
+							endYear="April 2019"
 							jobName="Cascade Energy"
 							jobTitle="Software Developer Intern"
-							jobDescription="Add Description"
+							jobDescription={CascadeEnergy}
 						/>
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 						<h2>Skills</h2>
