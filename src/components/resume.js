@@ -1,15 +1,35 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import Education from './resume/education';
 import Experience from './resume/experience';
 import Skills from './skills';
 import Avatar from '../assets/avatar2.png';
+
 import { CascadeEnergy } from './resume/jobInfo';
 
 class Resume extends Component {
+	state = { activeTab: 0 };
+
+	toggleCategories() {
+		if (this.state.activeTab === 0) {
+			return (
+				<div className="project-grid">
+					<Experience
+						startYear="October 2019"
+						endYear="April 2019"
+						jobTitle="Software Developer Intern"
+						jobDescription={CascadeEnergy}
+					/>
+				</div>
+			);
+		}
+	}
+
 	render() {
 		return (
-			<div style={{ textAlign: 'center' }}>
+			<div
+				style={{ textAlign: 'center', background: '#27221f', color: 'white' }}
+			>
 				<Grid>
 					<Cell col={4}>
 						<div>
@@ -19,7 +39,7 @@ class Resume extends Component {
 						<h4 style={{ color: 'grey' }}>Web Developer</h4>
 						<hr
 							style={{
-								borderTop: '3px solid #833fb2',
+								borderTop: '3px solid #e22947',
 								width: '100%',
 							}}
 						/>
@@ -30,7 +50,7 @@ class Resume extends Component {
 							individual and collaborative work with cross-functional teams.
 							Eager and excited to learn and grow within the tech field!
 						</p>
-						<hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
+						<hr style={{ borderTop: '3px solid #e22947', width: '100%' }} />
 						<h5>Location</h5>
 						<p>San Francisco, CA</p>
 						<h5>Phone</h5>
@@ -39,10 +59,8 @@ class Resume extends Component {
 						<p>Garlandlai7@gmail.com</p>
 						<h5>LinkedIn</h5>
 						<a
+							className="on-hover"
 							href="https://www.linkedin.com/in/garland-lai"
-							style={{
-								textDecoration: 'none',
-							}}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
@@ -50,14 +68,14 @@ class Resume extends Component {
 						</a>
 						<h5>GitHub</h5>
 						<a
+							className="on-hover"
 							href="https://github.com/GarlandLai"
-							style={{ textDecoration: 'none' }}
 							target="_blank"
 							rel="noopener noreferrer"
 						>
 							https://github.com/GarlandLai
 						</a>
-						<hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
+						<hr style={{ borderTop: '3px solid #e22947', width: '100%' }} />
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
 						<h2>Education</h2>
@@ -69,13 +87,24 @@ class Resume extends Component {
 						/>
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 						<h2>Experience</h2>
-						<Experience
-							startYear="October 2019"
-							endYear="April 2019"
-							jobName="Cascade Energy"
-							jobTitle="Software Developer Intern"
-							jobDescription={CascadeEnergy}
-						/>
+						<div className="resume-tabs">
+							<Tabs
+								activeTab={this.state.activeTab}
+								onChange={(tabId) => this.setState({ activeTab: tabId })}
+								ripple
+							>
+								<Tab>Cascade Energy</Tab>
+								<Tab>Bridgewell Resources</Tab>
+								<Tab>Google X</Tab>
+							</Tabs>
+
+							<Grid>
+								<Cell col={12}>
+									<div className="content">{this.toggleCategories()}</div>
+								</Cell>
+							</Grid>
+						</div>
+
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 						<h2>Skills</h2>
 						<Skills skill="Javascript" progress={50} />

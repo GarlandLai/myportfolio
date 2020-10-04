@@ -103,9 +103,15 @@
 }
 
 .resume-right-col {
-	background: #27221f;
-	color: white;
+	background: white;
+	color: #27221f;
 	padding: 2em;
+	border: 1px solid #27221f;
+}
+
+.on-hover {
+	text-decoration: none;
+	color: white;
 }
 
 .job-data {
