@@ -83,9 +83,8 @@ class Resume extends Component {
 						<p>
 							Motivated individual with engaging interpersonal skills and
 							expertise in cultivating strong connections. Demonstrates strong
-							analytical and problem solving abilities. Experienced in
-							individual and collaborative work with cross-functional teams.
-							Eager and excited to learn and grow within the tech field!
+							analytical and problem solving abilities. Eager and excited to
+							learn and grow within the tech field!
 						</p>
 						<hr style={{ borderTop: '3px solid #e22947', width: '100%' }} />
 						<h5>Location</h5>
@@ -144,10 +143,7 @@ class Resume extends Component {
 
 						<hr style={{ borderTop: '3px solid #e22947' }} />
 						<h2>Skills</h2>
-						<Skills skill="Javascript" progress={50} />
-						<Skills skill="React" progress={80} />
-						<Skills skill="HTML/CSS" progress={50} />
-						<Skills skill="Project Management" progress={100} />
+						<Skills />
 					</Cell>
 				</Grid>
 			</div>
