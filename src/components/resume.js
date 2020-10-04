@@ -8,26 +8,47 @@ import Avatar from '../assets/avatar2.png';
 class Resume extends Component {
 	render() {
 		return (
-			<div>
+			<div style={{ textAlign: 'center' }}>
 				<Grid>
 					<Cell col={4}>
-						<div style={{ textAlign: 'center' }}>
-							<img src={Avatar} alt="avatar" style={{ height: '200px' }} />
+						<div>
+							<img src={Avatar} alt="avatar" style={{ height: '250px' }} />
 						</div>
 						<h2 stye={{ paddingTop: '2em' }}>Garland Lai</h2>
 						<h4 style={{ color: 'grey' }}>Web Developer</h4>
-						<hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+						<hr
+							style={{
+								borderTop: '3px solid #833fb2',
+								width: '100%',
+							}}
+						/>
 						<p>Add some content</p>
-						<hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+						<hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
 						<h5>Location</h5>
 						<p>San Francisco, CA</p>
 						<h5>Phone</h5>
-						<p>(123) 456-7891</p>
+						<p>Phone Number</p>
 						<h5>Email</h5>
 						<p>Garlandlai7@gmail.com</p>
-						<h5>Website</h5>
-						<p>MyWebsite.com</p>
-						<hr style={{ borderTop: '3px solid #833fb2', width: '50%' }} />
+						<h5>LinkedIn</h5>
+						<a
+							href="https://www.linkedin.com/in/garland-lai"
+							style={{
+								textDecoration: 'none',
+							}}
+							target="_blank"
+						>
+							linkedin.com/in/garland-lai
+						</a>
+						<h5>GitHub</h5>
+						<a
+							href="https://github.com/GarlandLai"
+							style={{ textDecoration: 'none' }}
+							target="_blank"
+						>
+							https://github.com/GarlandLai
+						</a>
+						<hr style={{ borderTop: '3px solid #833fb2', width: '100%' }} />
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
 						<h2>Education</h2>
