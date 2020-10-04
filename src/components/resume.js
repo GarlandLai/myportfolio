@@ -37,6 +37,7 @@ class Resume extends Component {
 								textDecoration: 'none',
 							}}
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							linkedin.com/in/garland-lai
 						</a>
@@ -45,6 +46,7 @@ class Resume extends Component {
 							href="https://github.com/GarlandLai"
 							style={{ textDecoration: 'none' }}
 							target="_blank"
+							rel="noopener noreferrer"
 						>
 							https://github.com/GarlandLai
 						</a>
