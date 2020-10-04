@@ -5,7 +5,12 @@ import Experience from './resume/experience';
 import Skills from './skills';
 import Avatar from '../assets/avatar2.png';
 
-import { CascadeEnergy } from './resume/jobInfo';
+import {
+	CascadeEnergy,
+	Bridgewell2,
+	Google,
+	Bridgewell1,
+} from './resume/jobInfo';
 
 class Resume extends Component {
 	state = { activeTab: 0 };
@@ -19,6 +24,38 @@ class Resume extends Component {
 						endYear="April 2019"
 						jobTitle="Software Developer Intern"
 						jobDescription={CascadeEnergy}
+					/>
+				</div>
+			);
+		} else if (this.state.activeTab === 1) {
+			return (
+				<div>
+					<div className="project-grid">
+						<Experience
+							startYear="October 2017"
+							endYear="April 2019"
+							jobTitle="Project Manager"
+							jobDescription={Bridgewell2}
+						/>
+					</div>
+					<div className="project-grid">
+						<Experience
+							startYear="April 2017"
+							endYear="October 2017"
+							jobTitle="Sales Support Coordinator"
+							jobDescription={Bridgewell1}
+						/>
+					</div>
+				</div>
+			);
+		} else if (this.state.activeTab === 2) {
+			return (
+				<div className="project-grid">
+					<Experience
+						startYear="June 2014"
+						endYear="December 2015"
+						jobTitle="Operation Specialist"
+						jobDescription={Google}
 					/>
 				</div>
 			);
