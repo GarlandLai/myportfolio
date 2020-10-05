@@ -40,7 +40,7 @@ class Contact extends Component {
 											fontWeight: 300,
 										}}
 									>
-										<i className="fa fa-linkedin-square" aria-hidden="true" />
+										<i className="fab fa-linkedin" aria-hidden="true" />
 										linkedIn.com
 									</ListItemContent>
 								</ListItem>

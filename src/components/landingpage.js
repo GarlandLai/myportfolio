@@ -15,39 +15,35 @@ class Landing extends Component {
 						<div className="banner-text">
 							<h1>Web Developer</h1>
 							<hr />
-							<p>React | Javascript | Ruby on Rails | NodeJS | PostgreSQL</p>
+							<p>
+								Javascript | React | Redux | JQuery | NodeJS | Ruby on Rails |
+								PostgreSQL | HTML | CSS | Bootstrap | React-MDL | Materialize |
+								Github | Basic AWS | Firebase | Object Oriented Programming
+							</p>
 							<div className="social-links">
 								{/* LinkedIn */}
 								<a
-									href="http://google.com"
+									href="http://linkedin.com/in/Garland-Lai"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<i className="fa fa-linkedin-square" aria-hidden="true" />
+									<i className="fab fa-linkedin" aria-hidden="true" />
 								</a>
 								{/* Github */}
 								<a
-									href="http://google.com"
+									href="http://github.com/GarlandLai"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<i className="fa fa-github-square" aria-hidden="true" />
+									<i className="fab fa-github-square" aria-hidden="true" />
 								</a>
-								{/* freecodecamp */}
+								{/* Epicodus */}
 								<a
-									href="http://google.com"
+									href="https://www.epicodus.com/"
 									target="_blank"
 									rel="noopener noreferrer"
 								>
-									<i className="fa fa-free-code-camp" aria-hidden="true" />
-								</a>
-								{/* youtube */}
-								<a
-									href="http://google.com"
-									target="_blank"
-									rel="noopener noreferrer"
-								>
-									<i className="fa fa-youtube-square" aria-hidden="true" />
+									<i className="fas fa-laptop-code" />
 								</a>
 							</div>
 						</div>
