@@ -54,7 +54,7 @@ class Resume extends Component {
 					<Experience
 						startYear="June 2014"
 						endYear="December 2015"
-						jobTitle="Operation Specialist"
+						jobTitle="Self Driving Car Operation Specialist"
 						jobDescription={Google}
 					/>
 				</div>
@@ -114,14 +114,6 @@ class Resume extends Component {
 						<hr style={{ borderTop: '3px solid #e22947', width: '100%' }} />
 					</Cell>
 					<Cell className="resume-right-col" col={8}>
-						<h2>Education</h2>
-						<Education
-							startYear={2009}
-							endYear={2013}
-							schoolName="San Francisco State University"
-							schoolDescription="Business Administation - Concentration in Finance"
-						/>
-						<hr style={{ borderTop: '3px solid #e22947' }} />
 						<h2>Experience</h2>
 						<div className="resume-tabs">
 							<Tabs
@@ -142,8 +134,22 @@ class Resume extends Component {
 						</div>
 
 						<hr style={{ borderTop: '3px solid #e22947' }} />
-						<h2>Skills</h2>
+						<h2>Technical Tools and Skills</h2>
 						<Skills />
+						<hr style={{ borderTop: '3px solid #e22947' }} />
+						<h2>Education</h2>
+						<Education
+							startYear="May 2019"
+							endYear="October 2019"
+							schoolName="Epicodus Web Development"
+							schoolDescription="Javascript | Ruby | React | HTML | CSS"
+						/>
+						<Education
+							startYear="August 2009"
+							endYear="December 2013"
+							schoolName="San Francisco State University"
+							schoolDescription="Business Administation - Concentration in Finance"
+						/>
 					</Cell>
 				</Grid>
 			</div>

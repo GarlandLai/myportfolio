@@ -1,18 +1,20 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
-import { MySkills } from './resume/jobInfo';
 
 class Skills extends Component {
-	getFormattedSkills = (skills) => {
-		const currentSkills = skills.map((skill) => <span>{skill}</span>);
-		return currentSkills;
-	};
 	render() {
 		return (
 			<Grid>
 				<Cell col={12}>
 					<div style={{ display: 'inline', overflow: 'none', width: '80%' }}>
-						{this.getFormattedSkills(MySkills)}
+						<p style={{ fontSize: '14px', fontWeight: '400' }}>
+							Javascript | React | JQuery | Node | Ruby on Rails | Sinatra |
+							PostgreSQL | HTML | CSS | Unit testing |Jasmine | Jest | Mocha |
+							Debugging | Redux | Github | Basic AWS | Firebase | Webpack | APIs
+							| Object Oriented Programming | Heroku | SCRUM/Agile | SaaS |Slack
+							| Airtable | Confluence | Project Management | Customer Service |
+							Microsoft Office
+						</p>
 					</div>
 				</Cell>
 			</Grid>
