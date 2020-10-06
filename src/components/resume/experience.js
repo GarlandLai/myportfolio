@@ -4,7 +4,15 @@ import { Grid, Cell } from 'react-mdl';
 class Experience extends Component {
 	getJobData = (dataArray) => {
 		const bulletPoints = dataArray.map((data) => {
-			return <p>{data}</p>;
+			return (
+				<p>
+					<i
+						className="fas fa-circle"
+						style={{ fontSize: '7px', verticalAlign: 'middle' }}
+					/>{' '}
+					{data}
+				</p>
+			);
 		});
 		return bulletPoints;
 	};

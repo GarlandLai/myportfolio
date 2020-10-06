@@ -42,7 +42,7 @@ class Contact extends Component {
 												background: 'none',
 											}}
 										>
-											{this.state.showPhone ? '(415) 517-1671' : 'Show Number'}{' '}
+											{this.state.showPhone ? '(415) 517-1671' : 'Show Number'}
 										</button>
 									</ListItemContent>
 								</ListItem>
