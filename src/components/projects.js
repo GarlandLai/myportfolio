@@ -63,6 +63,26 @@ class Projects extends Component {
 							</CardMenu>
 						</CardActions>
 					</Card>
+					<Card shadow={5} style={{ minwidth: '450', margin: 'auto' }}>
+						<CardTitle
+							style={{
+								color: '#fff',
+								height: '176px',
+								background:
+									'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+							}}
+						>
+							React Project #1
+						</CardTitle>
+						<CardText>Add description of project</CardText>
+						<CardActions border>
+							<Button colored>Github</Button>
+							<Button colored>Live Demo</Button>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</CardActions>
+					</Card>
 				</div>
 			);
 		} else if (this.state.activeTab === 1) {
@@ -113,30 +133,6 @@ class Projects extends Component {
 					</CardActions>
 				</Card>
 			);
-		} else if (this.state.activeTab === 3) {
-			return (
-				// Project 3
-				<Card shadow={5} style={{ minwidth: '450', margin: 'auto' }}>
-					<CardTitle
-						style={{
-							color: '#fff',
-							height: '176px',
-							background:
-								'url(https://create-react-app.dev/img/logo-og.png) center / cover',
-						}}
-					>
-						React Project #4
-					</CardTitle>
-					<CardText>Add description of project</CardText>
-					<CardActions border>
-						<Button colored>Github</Button>
-						<Button colored>Live Demo</Button>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</CardActions>
-				</Card>
-			);
 		}
 	}
 
@@ -148,10 +144,9 @@ class Projects extends Component {
 					onChange={(tabId) => this.setState({ activeTab: tabId })}
 					ripple
 				>
-					<Tab>React1</Tab>
-					<Tab>React2</Tab>
-					<Tab>React3</Tab>
-					<Tab>React4</Tab>
+					<Tab>React</Tab>
+					<Tab>JavaScript</Tab>
+					<Tab>Ruby on Rails</Tab>
 				</Tabs>
 				<Grid>
 					<Cell col={12}>
