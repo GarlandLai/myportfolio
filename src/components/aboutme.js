@@ -1,11 +1,23 @@
 import React, { Component } from 'react';
+import { Grid, Cell } from 'react-mdl';
+import Avatar from '../assets/avatar2.png';
 
 class About extends Component {
+	state = {
+		showPhone: false,
+	};
 	render() {
 		return (
-			<div>
-				<h1>About</h1>
-			</div>
+			<Grid className="about-body">
+				<Cell col={4}>
+					<img src={Avatar} alt="avatar" style={{ height: '500px' }} />
+					<h2>Garland Lai</h2>
+				</Cell>
+				<Cell col={8}>
+					<h2>About Me</h2>
+					<hr />
+				</Cell>
+			</Grid>
 		);
 	}
 }

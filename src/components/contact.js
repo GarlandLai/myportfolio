@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, List, ListItem, ListItemContent } from 'react-mdl';
-import Avatar from '../assets/avatar2.png';
+import Avatar3 from '../assets/avatar3.JPG';
 
 class Contact extends Component {
 	state = {
@@ -12,7 +12,7 @@ class Contact extends Component {
 				<Grid className="contact-grid">
 					<Cell col={6}>
 						<h2>Garland Lai</h2>
-						<img src={Avatar} alt="avatar" style={{ height: '250px' }} />
+						<img src={Avatar3} alt="avatar" style={{ height: '300px' }} />
 						<p style={{ width: '75%', margin: 'auto', paddingTop: '1em' }}>
 							Excited and eager to connect. I'd love to discuss how I can be of
 							value to your team!
