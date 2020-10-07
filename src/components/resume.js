@@ -13,7 +13,7 @@ import {
 } from './resume/jobInfo';
 
 class Resume extends Component {
-	state = { activeTab: 0 };
+	state = { activeTab: 0, showPhone: false };
 
 	toggleCategories() {
 		if (this.state.activeTab === 0) {
@@ -90,7 +90,18 @@ class Resume extends Component {
 						<h5>Location</h5>
 						<p>San Francisco, CA</p>
 						<h5>Phone</h5>
-						<p>Phone Number</p>
+						<p>
+							<button
+								onClick={() => this.setState({ showPhone: true })}
+								style={{
+									color: 'white',
+									border: 'none',
+									background: 'none',
+								}}
+							>
+								{this.state.showPhone ? '(415) 517-1671' : 'Show Number'}
+							</button>
+						</p>
 						<h5>Email</h5>
 						<p>Garlandlai7@gmail.com</p>
 						<h5>LinkedIn</h5>

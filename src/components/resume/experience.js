@@ -3,10 +3,11 @@ import { Grid, Cell } from 'react-mdl';
 
 class Experience extends Component {
 	getJobData = (dataArray) => {
-		const bulletPoints = dataArray.map((data) => {
+		const bulletPoints = dataArray.map((data, i) => {
 			return (
-				<p>
+				<p key={i}>
 					<i
+						key={i}
 						className="fas fa-circle"
 						style={{ fontSize: '7px', verticalAlign: 'middle' }}
 					/>{' '}
@@ -28,9 +29,9 @@ class Experience extends Component {
 						</p>
 					</Cell>
 					<Cell col={8}>
-						<p className="job-data">
+						<div className="job-data">
 							{this.getJobData(this.props.jobDescription)}
-						</p>
+						</div>
 					</Cell>
 				</Grid>
 			</div>
