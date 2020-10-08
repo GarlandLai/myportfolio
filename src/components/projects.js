@@ -25,7 +25,12 @@ class Projects extends Component {
 				<div className="project-grid">
 					<Card
 						shadow={5}
-						style={{ minWidth: '450px', height: '450px', margin: 'auto' }}
+						style={{
+							minWidth: '440px',
+							height: '450px',
+							margin: 'auto',
+							padding: '2px',
+						}}
 					>
 						<CardTitle
 							style={{
@@ -70,7 +75,12 @@ class Projects extends Component {
 					</Card>
 					<Card
 						shadow={5}
-						style={{ minWidth: '450px', height: '450px', margin: 'auto' }}
+						style={{
+							minWidth: '440px',
+							height: '450px',
+							margin: 'auto',
+							padding: '2px',
+						}}
 					>
 						<CardTitle
 							style={{
@@ -130,56 +140,96 @@ class Projects extends Component {
 		} else if (this.state.activeTab === 1) {
 			return (
 				// Project 2
-				<Card
-					shadow={5}
-					style={{ minWidth: '450px', height: '450px', margin: 'auto' }}
-				>
-					<CardTitle
+				<div className="project-grid">
+					<Card
+						shadow={5}
 						style={{
-							color: '#fff',
-							height: '225px',
-							background:
-								'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+							minWidth: '440px',
+							height: '450px',
+							margin: 'auto',
+							padding: '2px',
 						}}
 					>
-						React Project #2
-					</CardTitle>
-					<CardText>Add description of project</CardText>
-					<CardActions border>
-						<Button colored>Github</Button>
-						<Button colored>Live Demo</Button>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</CardActions>
-				</Card>
+						<CardTitle
+							style={{
+								color: '#fff',
+								height: '225px',
+								background:
+									'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+							}}
+						>
+							ZIAI
+						</CardTitle>
+						<CardText style={{ height: '130px' }}>
+							Meditation journaling application. Listen to the meditation and
+							write some journal entries outlining you experiences!
+							<p>
+								Checkout out this informative website about Poison Oak. You can
+								even play our game to see if you can identify it. It's not as
+								easy as it looks!
+							</p>
+							<p>Technology Used:</p>
+						</CardText>
+						<CardActions border style={{ padding: '0', alignItems: 'center' }}>
+							<Button colored>
+								<a
+									href="https://github.com/GarlandLai/PoisonOak"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									GitHub
+								</a>
+							</Button>
+
+							<Button colored>
+								<a
+									href="https://oak-fg.firebaseapp.com"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									Live Demo
+								</a>
+							</Button>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</CardActions>
+					</Card>
+				</div>
 			);
 		} else if (this.state.activeTab === 2) {
 			return (
 				// Project 3
-				<Card
-					shadow={5}
-					style={{ minWidth: '450px', height: '450px', margin: 'auto' }}
-				>
-					<CardTitle
+				<div className="project-grid">
+					<Card
+						shadow={5}
 						style={{
-							color: '#fff',
-							height: '225px',
-							background:
-								'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+							minWidth: '440px',
+							height: '450px',
+							margin: 'auto',
+							padding: '2px',
 						}}
 					>
-						React Project #3
-					</CardTitle>
-					<CardText>Add description of project</CardText>
-					<CardActions border>
-						<Button colored>Github</Button>
-						<Button colored>Live Demo</Button>
-						<CardMenu style={{ color: '#fff' }}>
-							<IconButton name="share" />
-						</CardMenu>
-					</CardActions>
-				</Card>
+						<CardTitle
+							style={{
+								color: '#fff',
+								height: '225px',
+								background:
+									'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+							}}
+						>
+							React Project #3
+						</CardTitle>
+						<CardText>Add description of project</CardText>
+						<CardActions border>
+							<Button colored>Github</Button>
+							<Button colored>Live Demo</Button>
+							<CardMenu style={{ color: '#fff' }}>
+								<IconButton name="share" />
+							</CardMenu>
+						</CardActions>
+					</Card>
+				</div>
 			);
 		}
 	}
