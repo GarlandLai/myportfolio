@@ -32,10 +32,10 @@ function App() {
 						scroll
 					>
 						<Navigation>
-							{StyledLink('/resume', 'RESUME')}
-							{StyledLink('/aboutme', 'ABOUT ME')}
-							{StyledLink('/projects', 'PROJECTS')}
-							{StyledLink('/contact', 'CONTACT')}
+							{StyledLink('/resume', 'Resume')}
+							{StyledLink('/aboutme', 'About Me')}
+							{StyledLink('/projects', 'Projects')}
+							{StyledLink('/contact', 'Contact')}
 						</Navigation>
 					</Header>
 					<Drawer
