@@ -5,6 +5,11 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 
 function App() {
+	const StyledLink = (url, title) => (
+		<Link style={{ fontWeight: 'bold', fontSize: '16px' }} to={url}>
+			{title}
+		</Link>
+	);
 	return (
 		<div className="App">
 			{/* Uses a header that scrolls with the text, rather than staying locked at the top */}
@@ -13,17 +18,24 @@ function App() {
 					<Header
 						className="header-color"
 						title={
-							<Link style={{ textDecoration: 'none', color: 'white' }} to="/">
+							<Link
+								style={{
+									textDecoration: 'none',
+									color: 'white',
+									fontWeight: 'bold',
+								}}
+								to="/"
+							>
 								My Porfolio
 							</Link>
 						}
 						scroll
 					>
 						<Navigation>
-							<Link to="/resume">Resume</Link>
-							<Link to="/aboutme">About me</Link>
-							<Link to="/projects">Projects</Link>
-							<Link to="/contact">Contact</Link>
+							{StyledLink('/resume', 'RESUME')}
+							{StyledLink('/aboutme', 'ABOUT ME')}
+							{StyledLink('/projects', 'PROJECTS')}
+							{StyledLink('/contact', 'CONTACT')}
 						</Navigation>
 					</Header>
 					<Drawer

@@ -1,3 +1,7 @@
+.App Link {
+	color: red;
+}
+
 .header-color {
 	background: #304352;
 	background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
