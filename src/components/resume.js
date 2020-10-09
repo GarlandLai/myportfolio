@@ -18,7 +18,7 @@ class Resume extends Component {
 	toggleCategories() {
 		if (this.state.activeTab === 0) {
 			return (
-				<div className="project-grid">
+				<div>
 					<Experience
 						startYear="October 2019"
 						endYear="April 2019"
@@ -30,7 +30,7 @@ class Resume extends Component {
 		} else if (this.state.activeTab === 1) {
 			return (
 				<div>
-					<div className="project-grid">
+					<div>
 						<Experience
 							startYear="October 2017"
 							endYear="April 2019"
@@ -38,7 +38,7 @@ class Resume extends Component {
 							jobDescription={Bridgewell2}
 						/>
 					</div>
-					<div className="project-grid">
+					<div>
 						<Experience
 							startYear="April 2017"
 							endYear="October 2017"
@@ -50,7 +50,7 @@ class Resume extends Component {
 			);
 		} else if (this.state.activeTab === 2) {
 			return (
-				<div className="project-grid">
+				<div>
 					<Experience
 						startYear="June 2014"
 						endYear="December 2015"
