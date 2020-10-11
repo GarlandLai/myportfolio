@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
-import Education from './resume/education';
-import Experience from './resume/experience';
-import Skills from './skills';
-import Avatar from '../assets/avatar2.png';
+import Education from './education';
+import Experience from './experience';
+import Skills from '../skills';
+import Avatar from '../../assets/avatar2.png';
 
-import {
-	CascadeEnergy,
-	Bridgewell2,
-	Google,
-	Bridgewell1,
-} from './resume/jobInfo';
+import { CascadeEnergy, Bridgewell2, Google, Bridgewell1 } from './jobInfo';
 
 class Resume extends Component {
 	state = { activeTab: 0, showPhone: false };
