@@ -26,6 +26,7 @@ class Projects extends Component {
 									minWidth: '440px',
 									height: '450px',
 									margin: 'auto',
+									marginBottom: '15px',
 								}}
 							>
 								<CardTitle
@@ -47,11 +48,17 @@ class Projects extends Component {
 								<CardText style={{ height: '35px' }}>
 									<p>
 										<strong>Technology Used: </strong> React, Styled Components,
-										Firebase
+										CSS, and Firebase
 									</p>
 								</CardText>
-								<CardActions border style={{ padding: '0' }}>
-									<Button colored>
+								<CardActions
+									border
+									style={{
+										padding: '0',
+										justifyContent: 'space-evenly',
+									}}
+								>
+									<Button colored style={{ height: '50px' }}>
 										<a
 											href="https://github.com/GarlandLai/Burger-Builder"
 											target="_blank"
@@ -60,7 +67,7 @@ class Projects extends Component {
 											GitHub
 										</a>
 									</Button>
-									<Button colored>
+									<Button colored style={{ height: '50px' }}>
 										<a
 											href="https://react-my-burger-a16da.web.app"
 											target="_blank"
@@ -80,6 +87,7 @@ class Projects extends Component {
 									minWidth: '440px',
 									height: '450px',
 									margin: 'auto',
+									marginBottom: '15px',
 								}}
 							>
 								<CardTitle
@@ -90,7 +98,7 @@ class Projects extends Component {
 											'url(https://create-react-app.dev/img/logo-og.png) center / cover',
 									}}
 								>
-									ZIAI
+									ZIAI Meditation Journal
 								</CardTitle>
 								<CardText style={{ height: '75px' }}>
 									Meditation journaling application. Listen to the meditation
@@ -102,16 +110,17 @@ class Projects extends Component {
 								</CardText>
 								<CardText style={{ height: '35px' }}>
 									<p>
-										<strong>Technology Used: </strong> React, Ruby on Rails,
-										postgreSQL
+										<strong>Technology Used: </strong> React, Styled Components,
+										CSS, Ruby on Rails, PostgreSQL, React-scroll, Materialize,
+										and Heroku
 									</p>
 								</CardText>
 
 								<CardActions
 									border
-									style={{ padding: '0', alignItems: 'center' }}
+									style={{ padding: '0', justifyContent: 'space-evenly' }}
 								>
-									<Button colored>
+									<Button colored style={{ height: '50px' }}>
 										<a
 											href="https://github.com/GarlandLai/Capstone-2.0"
 											target="_blank"
@@ -120,7 +129,7 @@ class Projects extends Component {
 											GitHub Front-end
 										</a>
 									</Button>
-									<Button colored>
+									<Button colored style={{ height: '50px' }}>
 										<a
 											href="https://github.com/GarlandLai/capstone-backend"
 											target="_blank"
@@ -129,7 +138,7 @@ class Projects extends Component {
 											GitHub Back-end
 										</a>
 									</Button>
-									<Button colored>
+									<Button colored style={{ height: '50px' }}>
 										<a
 											href="https://react-my-burger-a16da.web.app"
 											target="_blank"
@@ -149,6 +158,7 @@ class Projects extends Component {
 									minWidth: '440px',
 									height: '450px',
 									margin: 'auto',
+									marginBottom: '15px',
 								}}
 							>
 								<CardTitle
@@ -176,9 +186,9 @@ class Projects extends Component {
 								</CardText>
 								<CardActions
 									border
-									style={{ padding: '0', alignItems: 'center' }}
+									style={{ padding: '0', justifyContent: 'space-evenly' }}
 								>
-									<Button colored>
+									<Button colored style={{ height: '50px' }}>
 										<a
 											href="https://github.com/GarlandLai/PoisonOak"
 											target="_blank"
@@ -188,7 +198,7 @@ class Projects extends Component {
 										</a>
 									</Button>
 
-									<Button colored>
+									<Button colored style={{ height: '50px' }}>
 										<a
 											href="https://oak-fg.firebaseapp.com"
 											target="_blank"
