@@ -37,6 +37,13 @@ const about = () => {
 					an eagerness and excitement further my growth within the tech
 					industry.
 				</p>
+				<br />
+				<h4>Outside of Career</h4>
+				<p>
+					During my free time, I enjoy being playing sports, learning new
+					things, reading, relaxing at the park/beach, and hanging out with
+					friends and family.
+				</p>
 			</Cell>
 		</Grid>
 	);
