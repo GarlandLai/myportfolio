@@ -10,7 +10,7 @@ const Skills = () => {
 						Javascript | React | JQuery | Node | Ruby on Rails | Sinatra |
 						PostgreSQL | HTML | CSS | Unit testing |Jasmine | Jest | Mocha |
 						Debugging | Redux | Github | Basic AWS | Firebase | Webpack | APIs |
-						Object Oriented Programming | Heroku | SCRUM/Agile | SaaS |Slack |
+						Object Oriented Programming | Heroku | SCRUM/Agile | SaaS | Slack |
 						Airtable | Confluence | Project Management | Customer Service |
 						Microsoft Office
 					</p>

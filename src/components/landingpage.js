@@ -13,12 +13,15 @@ class Landing extends Component {
 							className="avatar-image"
 						/>
 						<div className="banner-text">
-							<h1>Web Developer</h1>
+							<h1>Software Developer</h1>
 							<hr />
 							<p>
-								Javascript | React | Redux | JQuery | NodeJS | Ruby on Rails |
-								PostgreSQL | HTML | CSS | Bootstrap | React-MDL | Materialize |
-								Github | Basic AWS | Firebase | Object Oriented Programming
+								Javascript | React | JQuery | Node | Ruby on Rails | Sinatra |
+								PostgreSQL | HTML | CSS | Unit testing |Jasmine | Jest | Mocha |
+								Debugging | Redux | Github | Basic AWS | Firebase | Webpack |
+								APIs | Object Oriented Programming | Heroku | SCRUM/Agile | SaaS
+								| Slack | Airtable | Confluence | Project Management | Customer
+								Service | Microsoft Office
 							</p>
 							<div className="social-links">
 								{/* LinkedIn */}

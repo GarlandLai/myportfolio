@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import Education from './education';
 import Experience from './experience';
-import Skills from '../skills';
+import Skills from '../resume/skills';
 import Avatar from '../../assets/avatar2.png';
 
 import { CascadeEnergy, Bridgewell2, Google, Bridgewell1 } from './jobInfo';
