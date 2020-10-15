@@ -14,8 +14,8 @@ const about = () => {
 				<hr />
 				<h4>Career Wise</h4>
 				<p>
-					Hi there! I'm Garland. I first interested in Tech while working at
-					Google on the Self-Driving Car project. I remember thinking how if
+					Hi there! I'm Garland. I first became interested in Tech while working
+					at Google on the Self-Driving Car project. I remember thinking how if
 					used responsibily, technology could create such a positive impact on
 					people's lives.
 				</p>

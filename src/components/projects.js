@@ -31,10 +31,11 @@ class Projects extends Component {
 							>
 								<CardTitle
 									style={{
-										color: '#fff',
+										color: 'black',
 										height: '225px',
+
 										background:
-											'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+											'url(https://i.pinimg.com/originals/7c/98/fd/7c98fdf56fb54121465775d8287e0cb6.gif) center / cover',
 									}}
 								>
 									The Good Burger
@@ -55,6 +56,7 @@ class Projects extends Component {
 									border
 									style={{
 										padding: '0',
+										display: 'flex',
 										justifyContent: 'space-evenly',
 									}}
 								>
@@ -92,10 +94,10 @@ class Projects extends Component {
 							>
 								<CardTitle
 									style={{
-										color: '#fff',
+										color: 'black',
 										height: '225px',
 										background:
-											'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+											'url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/05/21/10/worldmeditationdayindybest.jpg) center / cover',
 									}}
 								>
 									ZIAI Meditation Journal
@@ -118,7 +120,11 @@ class Projects extends Component {
 
 								<CardActions
 									border
-									style={{ padding: '0', justifyContent: 'space-evenly' }}
+									style={{
+										padding: '0',
+										display: 'flex',
+										justifyContent: 'space-evenly',
+									}}
 								>
 									<Button colored style={{ height: '50px' }}>
 										<a
@@ -163,13 +169,13 @@ class Projects extends Component {
 							>
 								<CardTitle
 									style={{
-										color: '#fff',
+										color: 'black',
 										height: '225px',
 										background:
-											'url(https://create-react-app.dev/img/logo-og.png) center / cover',
+											'url(https://www.outdoorjoes.com/posts/3f9dfe80a85b40b0a2e43f58f8a47272/image/embed) center / cover',
 									}}
 								>
-									Posion Oak Field Guild
+									Posion Oak Field Guide
 								</CardTitle>
 								<CardText style={{ height: '75px' }}>
 									<p>
@@ -186,7 +192,11 @@ class Projects extends Component {
 								</CardText>
 								<CardActions
 									border
-									style={{ padding: '0', justifyContent: 'space-evenly' }}
+									style={{
+										padding: '0',
+										display: 'flex',
+										justifyContent: 'space-evenly',
+									}}
 								>
 									<Button colored style={{ height: '50px' }}>
 										<a
