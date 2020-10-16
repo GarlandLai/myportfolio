@@ -87,6 +87,7 @@ class Resume extends Component {
 						<h5>Phone</h5>
 						<p>
 							<button
+								className="on-hover"
 								onClick={() => this.setState({ showPhone: true })}
 								style={{
 									color: 'white',

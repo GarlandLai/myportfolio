@@ -123,6 +123,11 @@
 	color: white;
 }
 
+.on-hover:hover {
+	text-decoration: underline;
+	font-weight: bold;
+}
+
 .job-data {
 	text-align: left;
 }
