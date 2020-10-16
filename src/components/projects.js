@@ -42,8 +42,9 @@ class Projects extends Component {
 								</CardTitle>
 								<CardText style={{ height: '75px' }}>
 									<p>
-										Login or create account and create the perfect burger for
-										delivery!
+										Are you hungry? Login or create an account to get delivery
+										on the burger of your dreams! You can customize the
+										ingredients and enter your information for delivery!
 									</p>
 								</CardText>
 								<CardText style={{ height: '35px' }}>
@@ -103,11 +104,10 @@ class Projects extends Component {
 									ZIAI Meditation Journal
 								</CardTitle>
 								<CardText style={{ height: '75px' }}>
-									Meditation journaling application. Listen to the meditation
-									and write some journal entries outlining you experiences!
 									<p>
-										Login or create account and create the perfect burger for
-										delivery!
+										Are you stress or just need time to recharge and gain some
+										clarity? Go ahead and listen to one of the meditaitons and
+										create a journal entry to keep track of your experience!
 									</p>
 								</CardText>
 								<CardText style={{ height: '35px' }}>
@@ -179,15 +179,15 @@ class Projects extends Component {
 								</CardTitle>
 								<CardText style={{ height: '75px' }}>
 									<p>
-										Checkout out this informative website about Poison Oak. You
-										can even play our game to see if you can identify it. It's
-										not as easy as it looks!
+										Going on a trip and need some quick information about poison
+										oak? Check out this informative field guide to learn
+										everything you need to know!
 									</p>
 								</CardText>
 								<CardText style={{ height: '35px' }}>
 									<p>
 										<strong>Technology Used: </strong>
-										JavaScript, JQuery, HTML/CSS, Bootstrap
+										JavaScript, JQuery, Webpack, HTML/CSS, and Bootstrap
 									</p>
 								</CardText>
 								<CardActions

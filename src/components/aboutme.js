@@ -14,17 +14,11 @@ const about = () => {
 				<hr />
 				<h4>Career Wise</h4>
 				<p>
-					Hi there! I'm Garland. I first became interested in Tech while working
-					at Google on the Self-Driving Car project. I remember thinking how if
-					used responsibily, technology could create such a positive impact on
-					people's lives.
-				</p>
-				<p>
-					Prior to my decision to switch career paths into Tech, I worked as a
-					Project Manager at a Wholesale Suppy Chain company that provided
-					building materials for large multi-family construction projects.
-					Although I have decided to move forward from this role, I am grateful
-					for the experience.
+					Hi there! I'm Garland. Prior to my decision to switch career paths
+					into Tech, I worked as a Project Manager at a Wholesale Supply Chain
+					company that provided building materials for large multi-family
+					construction projects. Although I have decided to move forward from
+					this role, I am grateful for the experience.
 				</p>
 				<p>
 					I decided to make the leap and jumpstart my career as a Web Developer.
