@@ -151,6 +151,7 @@
 .about-body p {
 	font-family: 'Oxygen', sans-serif;
 	font-weight: bold;
+	text-align: left;
 }
 
 .about-body hr {
