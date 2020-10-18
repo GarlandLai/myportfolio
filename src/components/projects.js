@@ -61,7 +61,7 @@ class Projects extends Component {
 										justifyContent: 'space-evenly',
 									}}
 								>
-									<Button colored style={{ height: '50px' }}>
+									<Button colored style={{ height: '50px', width: "50%" }}>
 										<a
 											href="https://github.com/GarlandLai/Burger-Builder"
 											target="_blank"
@@ -70,7 +70,7 @@ class Projects extends Component {
 											GitHub
 										</a>
 									</Button>
-									<Button colored style={{ height: '50px' }}>
+									<Button colored style={{ height: '50px', width: "50%" }}>
 										<a
 											href="https://react-my-burger-a16da.web.app"
 											target="_blank"
@@ -198,7 +198,7 @@ class Projects extends Component {
 										justifyContent: 'space-evenly',
 									}}
 								>
-									<Button colored style={{ height: '50px' }}>
+									<Button colored style={{ height: '50px', width: "50%" }}>
 										<a
 											href="https://github.com/GarlandLai/PoisonOak"
 											target="_blank"
@@ -208,7 +208,7 @@ class Projects extends Component {
 										</a>
 									</Button>
 
-									<Button colored style={{ height: '50px' }}>
+									<Button colored style={{ height: '50px', width: "50%" }}>
 										<a
 											href="https://oak-fg.firebaseapp.com"
 											target="_blank"
