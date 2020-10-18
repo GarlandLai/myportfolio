@@ -150,6 +150,7 @@
 
 .about-body p {
 	font-family: 'Oxygen', sans-serif;
+	font-size: 16px;
 	font-weight: bold;
 	text-align: left;
 }
@@ -158,6 +159,7 @@
 	border-top: 5px dotted black;
 	width: 50%;
 	margin: auto;
+	padding-bottom: 30px;
 }
 
 .project-container h2 {
