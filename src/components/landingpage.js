@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import { Grid, Cell } from 'react-mdl';
+import Avatar2 from '../assets/avatar2.png';
 
 class Landing extends Component {
 	render() {
 		return (
-			<div style={{ width: '100%', margin: 'auto' }}>
+			<div style={{ width: '100%', margin: 'auto'}}>
 				<Grid className="landing-grid">
 					<Cell col={12}>
 						<img
-							src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQkl_n3vOKXZhEEgRGFtIXZMNlINKOUyLahMA&usqp=CAU"
+							src={Avatar2}
 							alt="avatar"
 							className="avatar-image"
 						/>
