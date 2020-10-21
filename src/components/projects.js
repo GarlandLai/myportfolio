@@ -26,7 +26,7 @@ class Projects extends Component {
 									minWidth: '440px',
 									height: '450px',
 									margin: 'auto',
-									marginBottom: '15px',
+									marginBottom: '25px',
 								}}
 							>
 								<CardTitle
@@ -90,7 +90,7 @@ class Projects extends Component {
 									minWidth: '440px',
 									height: '450px',
 									margin: 'auto',
-									marginBottom: '15px',
+									marginBottom: '25px',
 								}}
 							>
 								<CardTitle
@@ -164,7 +164,7 @@ class Projects extends Component {
 									minWidth: '440px',
 									height: '450px',
 									margin: 'auto',
-									marginBottom: '15px',
+									marginBottom: '25px',
 								}}
 							>
 								<CardTitle

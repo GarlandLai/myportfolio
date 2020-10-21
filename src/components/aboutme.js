@@ -6,7 +6,7 @@ const about = () => {
 	return (
 		<Grid className="about-body">
 			<Cell col={4}>
-				<img src={Avatar} alt="avatar" style={{ height: '500px' }} />
+				<img src={Avatar} alt="avatar" style={{ height: '400px' }} />
 				<h2>Garland Lai</h2>
 			</Cell>
 			<Cell col={1}></Cell>
