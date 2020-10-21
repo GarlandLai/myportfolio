@@ -9,16 +9,13 @@
 	background: -webkit-linear-gradient(to right, #d7d2cc, #304352);
 	background: linear-gradient(to right, #d7d2cc, #304352);
 	text-align: center;
-	position: fixed;
 	top: 20;
 	left: 0;
 	width: 100%;
-	height: 100%;
 }
 
-.avatar-img {
-	height: 400px;
-	padding-top: 5em;
+.avatar-image {
+	height: 350px;
 }
 
 .banner-text {

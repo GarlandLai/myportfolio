@@ -5,9 +5,9 @@ import Avatar2 from '../assets/avatar2.png';
 class Landing extends Component {
 	render() {
 		return (
-			<div style={{ width: '100%', margin: 'auto'}}>
+			<div style={{ width: '100vw', margin: 'auto'}}>
 				<Grid className="landing-grid">
-					<Cell col={12}>
+					<Cell style={{marginBottom: "40px"}} col={12}>
 						<img
 							src={Avatar2}
 							alt="avatar"
