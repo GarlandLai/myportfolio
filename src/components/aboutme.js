@@ -20,7 +20,7 @@ const about = () => {
 					After 2 years, I decided to make the leap and invest in my interest in web development. I enrolled in 6-month Web Development course called Epicodus. With over 1000 hours of hands-on learning and problem solving, I was able to delve into the web development fundamentals and most importantly, gained a thrist for continously learning. 
 					</p>
 					<p>
-					This experience led to my internship as a Software Developer with Cascade Energy. At Cascade, I gained valuable knowledge, hands-on experience, and a deeper understanding of writing quality code in large established codebase. The mentorship of senior software developers have ingrained an eagerness and excitement further my growth within the tech industry.
+					This experience led to my internship as a Software Developer with Cascade Energy. At Cascade, I gained valuable knowledge, hands-on experience, and a deeper understanding of writing quality code in large established codebase. This experience and the mentorship of senior software developers ingrained an eagerness and excitement further my growth within the tech industry.
 				</p>
 				<br />
 			</Cell>
