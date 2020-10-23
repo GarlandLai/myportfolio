@@ -146,7 +146,7 @@ class Projects extends Component {
 									</Button>
 									<Button colored style={{ height: '50px' }}>
 										<a
-											href="https://react-my-burger-a16da.web.app"
+											href="https://ziai-ea663.web.app"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
